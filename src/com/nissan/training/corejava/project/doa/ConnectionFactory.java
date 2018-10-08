@@ -10,7 +10,7 @@ import java.sql.SQLException;
  */
 
 public class ConnectionFactory {
-    public static final String URL = "jdbc:mysql://localhost:3306/airlinesystem";
+    public static final String URL = "jdbc:mysql://localhost:3306/airlinesystem?autoReconnect=true&useSSL=false";
     
     public static final String USER = "root";
     public static final String PASS = "root";
